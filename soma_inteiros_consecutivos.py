@@ -4,11 +4,10 @@
 a, n = map(int, input().split())
 
 while n <= 0:
-    N = int(input("Digite:"))
-    n = N
-    a = a
+    n = int(input())
+    
 soma = 0
 for i in range(n):
-    soma = a + i + a
+    soma += (a + i)
 
 print(soma)
