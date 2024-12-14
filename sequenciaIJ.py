@@ -45,24 +45,7 @@ def sequenciaIJ3():
             J = J + 5
             contJ = 0
 
-# Sequencia IJ 4 - 1098
-I = 0
-J = 1
-contI = 0
-contJ = 0
-
-while I <= 2:
-    contI += 1
-    print(f"I={I:.1f} J={J}")
-    
-    # Sequencia do I
-    if contI == 3:
-        I += 0.2
-        contI = 0
-
-    # Sequencia do J
-    contJ += 1
-    if J <= 3:
-        if contJ < 3:
-            J +=1
+sequenciaIJ1()
+sequenciaIJ2()
+sequenciaIJ3()
 
