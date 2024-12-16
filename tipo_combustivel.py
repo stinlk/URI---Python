@@ -1,5 +1,6 @@
 # Tipo de Combustivel - 1134
 # Objetivo: Saber qual dos produtos os clientes tem mais preferencia.
+# Esse codigo resolve o problema, porem tem que retirar "Tipos", pois foi algo que eu coloquei.
 print("="*50)
 print("TIPOS")
 print("1- Alcool")
@@ -41,5 +42,3 @@ print(f"Gasolina: {qtt_gasolina}")
 print("-"*50)
 print(f"Diesel: {qtt_diesel}")
 print("="*50)
-
-
